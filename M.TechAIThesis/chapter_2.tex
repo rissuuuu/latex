@@ -1,0 +1,76 @@
+\begin{onehalfspacing}
+\chapter{Literature Survey}
+\par This chapter reviews the work done by other people in the same area.\newline
+
+\par Luiz Paulo Maia, Francis Berenger Machado, Ageu C. Pacheco Jr. \cite{Luiz} proposed an Operating System Simulator as a means of making the process of learning OS more efficient and interesting. The framework presented used the SOsim graphical simulator as a support tool. The simulator attempts to create a dynamic and simplified model of reality. The simulator  presented  concepts and techniques found in modern OS, such as multiprogramming, process, scheduling and memory management and some implemented algorithms can be seen in commercial OS, such as HP OpenVMS, Microsoft Windows NT, Windows 2000 and Windows XP. It as simple process creation and visualization of processes in frames. During a survey it was found that the simulator made learning theoritical concepts satisfying also elicits interest in the subject but it is little difficult to use and interface was also found little difficult.\newline
+
+\par Silvio Roberto Fernandes, Levia Casemiro Oliveira, Antonio V.T.Costa \cite{Silvio}proposed MOSS based methodology to building an Operational System for MIPS Simulator. It is a collection of Java- based simulation programs that illustrated key concepts presented in Andrew S. Tanenbaum, Modern Operating System textbook. Scheduling Simulator, Deadlocking Simulator, Memory Management Simulator and File System Simulator were addressed in the simulation. Their first activity consisted in the development of process manager and represent Process Control Block, Process Table and Scheduler. Second activity consisted development of the Memory Manager (MM) where during the process execution, MM was able to map processes allocated to memory frame and as a third activity was File System Manager.\newline
+
+\par Abir Chandra Roy$^1$, Md. Abdullah Al Mamun$^1$, Khairat Hossin$^1$, Md. Ariful Islam$^1$, Md. Palash Uddin$^1^*$, Masud Ibn Afjal$^2$, Md. Sohrawordi$^2$ \cite{palash} proposed an Operating System Simulation Software for windows based system by C# .NET Framework and Android Application by JAVA and XML. They have divided simulationinto three parts. The first part is Central Processing Unit (CPU)/ process scheduling with First Come First Serve (FCFS), Preemptive and non-preemptive shortest job first(SJF), priority scheduling (PR) and Round Robin (RR) algorithms. Second was page fault counting on page replacement with First In First Out (FIFO), Least recently Used (LRU) and Optimal page replacement Algorithm. Third was deadlock handling with bankers algorithm. Their research also included comparisons of various page replacement algorithms and occurance of page faults.The desktop and android application included process scheduling, page replacement and deadlock handling options separately.\newline
+
+\par Maria Lydia Fioravanti, Marcelo Koti Kamada, Paulo Sergio Lopes de Souza, Ellen Francine Barbosa \cite{maria} proposed I3S Simulator: An open Educational Resource for Teaching Scheduling in Interactive Systems. Interactive Systems Scheduling Simulator (I3S) was initiated to bridge a gap for several resources including Open Educational Resources (OERs) to improve learning and teaching in Computing courses, including Operating System courses. They presented open educational resource entitled I3S Simulator which aims at simulating the structure, functionality and performance of scheduling processes in interactive systems. The simulator highlighted structural and functional aspects of scheduling algorithms like Round Robin (RR), Priority, Multiple Queues, Shortest Job First (SJF), and Lottery. The simulator was developed in MVC architectural pattern using Python programming language. The simulator running steps includes Choice of the algorithm(s), addition of processes, setting up global parameters and running the simulation. Assessments were done and got positive feedback for the project too.\newline
+
+\par Joshua W. Buck and Saverio Perugini\cite{Joshua} presented a paper focusing on a graphical CPU scheduling simulator for teaching Operating Systems. Various events that an Operating System handles have been presented in this graphical simulator tool. The tool is web based application where instructor can use it for live demonstrations of course concept in class. The simulator was capable of demonstrating scheduling algorithms, I/O processing, interrupts, context switches, Process Control Blocks and semaphore processing. The simulator core system was capable of rejecting jobs if they require more memory than the total system memory. It was able to schedule a job in queue in secondary memory that lists all jobs which are waiting for main memory to become available so as to execute task. The internal components contained multi-level, FIFO ready queue, the I/O wait queue and the semaphore wait queues. The parameters of simulators can easily be customized and various simulation variables that can be tuned. The simulator performed quite well fulfilling the project requirement.\newline
+
+\par Átila Rabelo Lopes$^1^,^2$, Darielson Araújo de Souza1,José Ricardo B. de Carvalho1, Welk Oliveira Silva1, Verônica Lima Pimentel de Sousa$^2$ \cite{Rabelo} presented a memory simulator project for teaching of Operating Systems.This project was  motivated from SoSim and MOSS simulator where those two simulator lacked some good Memory Management visualizations. They have selected Adobe Flash CS3 with the language ActionScript 3.0. as a development tool This project has mainly focused in simulating Main Memory. It has focused mainly in 4 allocation strategies which are first-fit, best-fit, worst-fit, swapping and Paged Virtual Memory. The took feedback from 3 professors and 17 students from the State University of Piaui with various questionnaires and the assesment of the tool was considered as satisfactory. \newline
+
+\par John K. Estell \cite{John} presented a paper introducing a simulation project for an Operating Systems Course which presented as a group project used as a programming assignment. The instructor led project was coordinated with the group of 3 to 4 students. The project was written in C on UNIX platform and was divided into four phases: process management model, process scheduling routines for handling the simultaneous execution of multiple processes, performance evaluation programs to filter data. In process management part it initializes the data structure for a new process after which it entered to ready queue. The project involved complete life cycle of process management with ready, running, waiting and terminated state. They have given simulation into next level by implementing multitasking and various process scheduling algorithms. At first, FCFS algorithm was implemented and a ready queue was designed as a simple FIFO queue after two more scheduling algorithms Round Robin (RR) and Shortest Time Remaining (STR) was used. The result of simulation was found to be good experience for both instructors and students with positive feedback's. \newline
+
+\par Soetrisno Cahya \cite{Cahya} presented a paper based on his teaching experience on Operating Systems subject course when there was a need of a simulator to facilitate students in learnng the course. The simulator was developed in three phases which includes developing simulated computer system, developing kernel and developing operating system as a virtual machine. The simulated computer mimiced computer hardware in the form of software where the CPU consisted eight general registers, four segment registers, program counter, pointer registers and internal registers. The CPU provides basic instruction set for arithmetic, control data movement operations as well as CPU, memory management and cache memory were packed together in a processor module. As a result, Memory and CPU elements were simulated and simulated memory element roles as Random Access Memory (RAM) where array of byte was used for holding data yet efforts are being made to handle interrupts and repetition instructions.\newline\newline
+
+\par Manoj Kumar Putchala$^*$ and Adam R. Bryant$^+$ \cite{Manoj} proposed an interactive tutoring system to teach process synchronization and shared memory concept for operating systems course. In a process synchronization part, it mainly deals with parallelism and concurrency and when two or more processes share a memory region, they should access it in an orderly manner to avoid errors. The simulator has features to log in with  user type and also can create user account. User can select concepts that he/she chooses to run in a simulator. It also provides a mode i.e (simulator, manual or self-check) modes. There are various parameters user can choose in the concurrency algorithm and can evaluate the system's behavior which is one of the key feature of this simulator. The simulator is also integrated with a database to track performance over time with respect to each content areas used in self-check mode. The autonomous mode executes with no interruption until it has completed where algorithm runs with default parameters from the database provided data. In self-check mode the program steps into a crucial step and prompts the user to guess the values that will result upon completion of that step. The Real-time mode is proposed under development and is planned to be released in next version. They developed the system in java where each window was implemented as an instance of JFrame class. The problems like Semaphores, Mutex, Monitors and Dining Philosophers Problem is represented visually very interactively. They also presented the tool through user testing/ human participant experiments.\newline
+
+\par Dr. Yosef Hasan Jbara \cite{Yosef} proposed a visual tool to improve effectiveness of teaching and learning CPU Scheduling Algorithms. In this project CPU scheduling is mostly focused as it is one of the important key concept of multi programming operating systems. Many processes gets executed concurrently and those processes has to be smoothly handled by the CPU.  CPU plays very important role in executing processes and scheduler maintains ready queue to select the process form the active or waiting processes. The main goal of scheduler is maximising CPU utilization for the processes. In this tool, various scheduling techniques like First Come First Serve (FCFS), Shortest Job First (SJF), Shortest Remaining Time First (SRTF), Round Robin (RR), Priority and Multilevel Feedback Queue (MLFQ). The tool was made using Visual Basic which contains four screens. They are main screen, simulation screen, the All-In-One screen and Multilevel Feedback Queue Screen. Each of the screen is rich in selecting proper features and also tune parameters if required. User can select Preemptive or Non-Preemptive algorithm and start simulation. It also contains information about CPU utilization and throughout percentage along with Average Waiting Time, Average Turnaround Time, Average Response time and Context Switch, etc.\newline
+
+\par Eduardo Gomes de Oliveira, Mateus Soares Ferreira de Oliveira, Nerval Rabelo Neto, Fabiano de Paula Soldati, Talita Lara Carvalho Nassur \cite{Eduard} proposed a mobile application to support teaching of management of process in Operating Systems. This mobile application is named as AlgOS and is equiped with simulations of main process scheduling algorithms and theoretical studies along with fixation exercises too. AlgOS has covered topics like processes, process concept, communication between processes and process scheduling with algorithms like First Come First Serve (FCFS), Shortest Job First (SJF), Shortest Remaining Time (SRT) and Round Robin (RR). The app also contains a quiz style questionnaire related to process management. during the reviews and questionnaires, more than 50 percent gave positive feedback mentioning the application to be very helpful.\newline
+
+Based on different attempts made to simulate some part of operating system, this project is intended to simulate goodness of process with locality of reference, virtual memory, page hits, page faults, page replacements and process timings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{onehalfspacing}
+
+
+
